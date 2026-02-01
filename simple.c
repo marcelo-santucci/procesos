@@ -5,5 +5,5 @@
 int main()
 {
     fork();
-    printf("Soy el proceso... pero... ¿Padre o Hijo?: [%d]\n", getpid());
+    printf("Soy un proceso... pero... ¿Padre o Hijo?: [%d]\n", getpid());
 }
